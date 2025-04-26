@@ -1,52 +1,46 @@
-# StudyWithMiku
+#StudyWithMiku
 
 STUDY WITH MIKU web version cover
 
-突发奇想，将其变为现实
+Suddenly inspired, turn it into reality
 
-[WEB](https://studymiku.wenqi.icu)
+WEB
 
-[WEB(Cloudflare)](https://studymiku.cloudflare.wenqi.icu)
+WEB(Cloudflare)
 
-## 目前实现的功能
+Currently implemented functions
+Accompany your Miku!
 
-- [x] 陪着你的Miku！
+Full screen mode
 
-- [x] 全屏模式
+Tips
 
-- [x] 一言Tips
+Good music
 
-- [x] 好听的音乐
+Customized playlist
 
-- [x] 自定义歌单
+Tips settings
 
-- [x] Tips设置
+Number of online users
 
-- [x] 在线人数
+Local learning time, total time record
 
-- [x] 本地学习时长、总时长记录
+Smooth animation (bushi)
 
-- [x] 丝滑的动画(bushi)
+Single learning break time record
 
-- [x] 单次学习休息时长记录
+Automatically stop timing when slacking off (window out of focus)
 
-- [x] 摸鱼自动停止计时(窗口失焦)
+Deployment Tips
+Umami
+If you deploy it yourself, it is recommended to change the Umami statistics code in <head> to the self-deployed counter
 
-## 部署TIPS
-
-### Umami
-
-自行部署的话建议将 `<head>` 中的 Umami 统计代码更改为自行部署的统计器
-
-```
 <!-- Umami START -->
-  <!-- 更改为你自己部署的Umami统计器 -->
+<!-- Change to the Umami counter you deployed -->
 <!-- Umami END -->
-```
+Don't forget to modify the Token and URL values ​​in mikuplayer
 
-也别忘了去修改`mikuplayer`中的**Token**、**URL**值
-
-## 贡献者
+Contributors
 
 <a href="https://github.com/WenqiOfficial/StudyWithMiku/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=WenqiOfficial/StudyWithMiku" />
